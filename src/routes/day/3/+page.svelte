@@ -141,7 +141,6 @@
 
 					if (totalNumbers.length == 2) {
 						answerPart2 += totalNumbers[0] * totalNumbers[1];
-						console.debug(totalNumbers[0] * totalNumbers[1], totalNumbers[0], totalNumbers[1]);
 					}
 				}
 			}
@@ -154,7 +153,7 @@
 
 			for (let breakdown = column; breakdown >= 0; breakdown--) {
 				const char = data[row][breakdown];
-				console.debug(char);
+
 				if (isNumber(char)) {
 					number = char + number;
 				} else {
