@@ -10,5 +10,8 @@
     <li>
 		<a href="/day/3">Day 3</a>
 	</li>
+    <li>
+		<a href="/day/4">Day 4</a>
+	</li>
     
 </ul>
