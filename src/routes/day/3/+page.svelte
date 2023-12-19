@@ -115,7 +115,6 @@
 						middleNumbers.push(number);
 					}
 
-					// bottom
 					if (isNumber(bottomLeft)) {
 						const number = scanStringReverse(rowIndex + 1, column - 1);
 						bottomNumbers.push(number);
